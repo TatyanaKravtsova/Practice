@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Muller_bold";
+  src: url(../fonts/MullerBold.woff);
+  /*font-weight: bold;*/
+}
+
+@font-face {
+  font-family: "Muller_light";
+  src: url(../fonts/MullerLight.woff);
+}
+
+@font-face {
+  font-family: "Muller_medium";
+  src: url(../fonts/MullerMedium.woff);
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url(../fonts/MullerRegular.woff);
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Muller;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header-top {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 54px;
+  .header-top__contacts {
+    display: flex;
+      .header-tel {
+        padding: 0 0 0 15px;
+        text-align: center;
+      }
+  }
+  .header-top__login {
+    text-align: center;
+  }
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0 0;
+}
+
+.header-menu__buttons {
+  display: flex;
+  margin: 25px 0 0 0;
+}
+
+.nav-item, .order {
+  padding: 0 15px 0 0;
+}
+
+.hot {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+}
+
+.section-title {
+  width: 1170px;
+}
+.card {
+  width: 573px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1170px;
+}
+
+.service-card {
+  width: 573px;
+}
+
+.benefits, .hosting {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  /*justify-content: space-between;*/
+}
+
+.benefits-card {
+  width: 274px;
+  margin: 0 24px 24px 0;
+}
+
+.benefits-card:nth-child(5n) {
+  margin: 0;
+}
+
+.benefits-card:nth-child(9n) {
+  margin: 0;
+}
+
+.hosting-card {
+  width: 374px;
+  margin: 0 24px 24px 0;
+}
+
+.hosting-card__price {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hosting-card:nth-child(4) {
+  margin: 0;
+}
+
+.hosting-card:nth-child(7n) {
+  margin: 0;
+}
